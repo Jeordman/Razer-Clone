@@ -1,0 +1,93 @@
+.landing-image-stealth-ad {
+  width: 100vw;
+  height: 70vh;
+  /* background-image: url(""); */
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.landing-image-stealth-ad-text {
+  margin-top: 4vh;
+  margin-left: 30vw;
+  width: 40vw;
+  font-family: 'Hepta Slab', serif;
+}
+
+.landing-image-keyboard-ad {
+  width: 100vw;
+  height: 75vh;
+  /* background-image: url(""); */
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+}
+
+.landing-image-keyboard-ad-text {
+  margin-top: 9vh;
+  margin-left: 30vw;
+  width: 40vw;
+  font-family: 'Hepta Slab', serif;
+}
+
+.razer-button {
+  font-size: 15px;
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  border-radius: 12px;
+  background-color: rgb(68, 214, 44);
+}
+/* 
+.landing-image-mouse-ad {
+  width: 100vw;
+  height: 75vh;
+  background-image: url("https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h83/h78/9211654668318/razer-viper-desktop-home-large.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+} */
+
+.landing-image-mouse-ad-text {
+  margin-top: 7vh;
+  margin-left: 30vw;
+  width: 40vw;
+  font-family: 'Hepta Slab', serif;
+}
+
+#first-gaming-ultrabook {
+  color: rgb(163, 163, 163);
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.left-ad-homepage {
+  position: absolute;
+  margin-left: 17vw;
+  margin-top: 5%;
+  font-family: 'Hepta Slab', serif;
+}
+
+.right-ad-homepage {
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 5%;
+    font-family: 'Hepta Slab', serif;
+  }
+
+  .mini-homepage-ads{
+    color: rgb(163, 163, 163);
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+.landing-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.landing-image-2 {
+  width: 50%;
+}

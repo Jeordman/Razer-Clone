@@ -1,0 +1,171 @@
+.cortex-full-holder {
+}
+
+.darken-screen {
+  position: absolute;
+  display: flex;
+  background-color: rgba(17, 17, 17, 0.9);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+.razer-core-text {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#razer-core-main-description {
+  width: 50%;
+}
+
+.cortex-logo {
+  width: 30%;
+}
+
+#focus-on-game {
+  font-size: 50px;
+  color: white;
+}
+
+#razer-core-p {
+  font-size: 20px;
+  color: gray;
+}
+
+#download-core-button {
+  background-color: rgb(68, 214, 44);
+  font-size: 20px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 12px;
+  height: 50px;
+}
+
+#download-core-button:hover {
+  cursor: pointer;
+}
+
+.titanfall-2-video {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+.cortex-image1 {
+  width: 100vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+}
+
+#cortex-article {
+  margin-left: 20vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+}
+
+#cortex-title {
+  font-size: 30px;
+  text-align: left;
+  color: rgb(68, 214, 44);
+}
+
+#cortex-p {
+  font-size: 15px;
+  text-align: left;
+  color: white;
+}
+
+#cortex-button {
+  font-size: 15px;
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  border-radius: 12px;
+  background-color: rgb(68, 214, 44);
+}
+
+.cortex-image2 {
+  width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+}
+
+#cortex-article2 {
+  margin-left: 50vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+}
+
+#cortex-title2 {
+  font-size: 30px;
+  text-align: left;
+  color: rgb(68, 214, 44);
+}
+
+#cortex-p2 {
+  font-size: 15px;
+  text-align: left;
+  color: white;
+}
+
+.cortex-image3 {
+  width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+}
+
+#cortex-article3 {
+  margin-left: 20vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+}
+
+#cortex-title3 {
+  font-size: 30px;
+  text-align: left;
+  color: rgb(68, 214, 44);
+}
+
+#cortex-p3 {
+  font-size: 15px;
+  text-align: left;
+  color: white;
+}
+
+.cortex-image4 {
+  width: 100vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+}
+
+.cortex-image5 {
+  width: 100vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+}
