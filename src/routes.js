@@ -19,11 +19,11 @@ export default (
     <Route exact path="/cart" component={Cart} />
     <Route
       exact
-      path="/gaming-laptops/blade-stealth"
+      path="/gaming-laptops/razer-blade-stealth"
       component={BladeStealth}
     />
-    <Route exact path="/gaming-laptops/blade-15" component={Blade15} />
-    <Route exact path="/gaming-laptops/blade-17" component={Blade17} />
+    <Route exact path="/gaming-laptops/razer-blade-15" component={Blade15} />
+    <Route exact path="/gaming-laptops/razer-blade-17" component={Blade17} />
     <Route
       path="/gaming-laptops/configure/:productName"
       component={Configure}

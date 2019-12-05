@@ -8,7 +8,7 @@ const Blade15 = () => {
         <h1>The New Razer Blade Stealth 15</h1>
 
         <h1>Fro9</h1>
-        <Link to="/gaming-laptops/configure/blade15">
+        <Link to="/gaming-laptops/configure/razer-blade-15">
           <button>Buy Now</button>
         </Link>
       </nav>

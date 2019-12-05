@@ -1,3 +1,9 @@
+const mongoose = require("mongoose");
+
+const Schema = mongoose.Schema;
+
+const Laptops = mongoose.model("Laptops", new Schema({}), 'Laptops');
+
 module.exports = {
   getProduct: (req, res) => {
     const db = req.app.get("db");
@@ -5,5 +11,14 @@ module.exports = {
     db.get_inventory_item(productName)
       .then(item => res.status(200).send(item[0]))
       .catch(err => res.status(404).send("That Item does not exist", err));
+  },
+
+  getSpecifiedLaptop: (req, res) => {
+    Laptops.find({name: req.params.laptopName})
+      .then(laptop => {
+        console.log(laptop);
+        res.status(200).send(laptop[0]);
+      })
+      .catch(err => console.log({ err }));
   }
 };

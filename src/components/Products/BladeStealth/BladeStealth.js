@@ -10,7 +10,7 @@ const BladeStealth = () => {
         <h1>The New Razer Blade Stealth 13</h1>
 
         <h1>From US$1,099.99</h1>
-        <Link to="/gaming-laptops/configure/bladeStealth">
+        <Link to="/gaming-laptops/configure/razer-blade-stealth">
           <button>Buy Now</button>
         </Link>
       </nav>

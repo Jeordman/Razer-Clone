@@ -16,7 +16,7 @@ export default function LaptopsStore() {
             <Link
               className="blade-line-boxes"
               id="blade-line-box-stealth"
-              to="/gaming-laptops/blade-stealth"
+              to="/gaming-laptops/razer-blade-stealth"
             >
               <img
                 src={`${S3_LOCATION}/StoreMain/blade-stealth-13-mainstore.png`}
@@ -25,7 +25,7 @@ export default function LaptopsStore() {
             <Link
               className="blade-line-boxes"
               id="blade-line-box-15"
-              to="/gaming-laptops/blade-15"
+              to="/gaming-laptops/razer-blade-15"
             >
               <img
                 src={`${S3_LOCATION}/StoreMain/blade-stealth-15-mainstore.png`}
@@ -34,7 +34,7 @@ export default function LaptopsStore() {
             <Link
               className="blade-line-boxes"
               id="blade-line-box-17"
-              to="/gaming-laptops/blade-17"
+              to="/gaming-laptops/razer-blade-17"
             >
               <img src={`${S3_LOCATION}/StoreMain/500x500_blade_pro_17.png`} />
             </Link>
